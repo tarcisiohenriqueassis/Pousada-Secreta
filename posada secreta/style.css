@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    background-color:#f5f5f5;
+}
+.container-menu-fixo-topo{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    letter-spacing: 3px;
+    align-items: center;
+}
+.container-menu-fixo-topo h1{
+    font-size: 21px;
+}
+.container-menu-fixo-topo span{
+    color: #0f91cf;
+}
+.container-menu-fixo-topo a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.container-menu-fixo-topo a:hover{
+    color: #0f91cf;
+}
+.imagem-inicio-topo{
+    width: 100%;
+    height: 582px;
+    background-image: url(img/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 70px;
+    position: relative;
+}
+.texto-pousada-secreta{
+        width: 37%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: #b5b5b547;
+        padding: 40px;
+        position: absolute;
+        top: 47%;
+        left: 28%;
+        letter-spacing: 2px;
+        font-weight: 500;
+}
+.texto-pousada-secreta h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+.texto-pousada-secreta p{
+    font-size: 22px;
+}
+.container-texto-quarto-solteiro{
+    height: 100px;
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 58px;
+    flex-direction: column;
+    align-items: center;
+}
+.container-texto-quarto-solteiro h2{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 23px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container-texto-quarto-solteiro p{
+    margin-top: 22px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.container-quarto-solteiro-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container-quarto-solteiro-imagens h2{
+    display: flex;
+    font-family: sans-serif;
+    height: 100%;
+    align-items: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container-quarto-solteiro-imagens figure img{
+    width: 330px;
+    height: 206px;
+    padding: 0px 1px;
+    object-fit: contain;
+}
+.container-descricao-quarto-solteiro table{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+} 
+.container-descricao-quarto-solteiro table thead{
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.container-descricao-quarto-solteiro table tbody{
+    width: 74vw;
+}
+.container-descricao-quarto-solteiro table tbody tr{
+    display: flex;
+}
+.container-descricao-quarto-solteiro table tbody td{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    border: 0.1px solid #00000012;
+}
+
+.container-texto-quarto-casal{
+    height: 100px;
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 58px;
+    flex-direction: column;
+    align-items: center;
+}
+.container-texto-quarto-casal h2{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 23px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container-texto-quarto-casal p{
+    margin-top: 22px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.container-quarto-casal-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+.container-quarto-casal-imagens figure img{
+    width: 330px;
+    height: 206px;
+    padding: 0px 1px;
+    object-fit: contain;
+}
+.container-descricao-quarto-casal table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-descricao-quarto-casal table thead {
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.container-descricao-quarto-casal table tbody {
+    width: 74vw;
+}
+.container-descricao-quarto-casal table tbody tr{
+    display: flex;
+}
+.container-descricao-quarto-casal table tbody td{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    border: 0.1px solid #00000012;
+}
+
+
+.container-texto-quarto-familia{
+    height: 100px;
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 58px;
+    flex-direction: column;
+    align-items: center;
+}
+.container-texto-quarto-familia h2{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 23px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container-texto-quarto-familia p{
+    margin-top: 22px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.container-quarto-familia-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+.container-quarto-familia-imagens figure img{
+    width: 330px;
+    height: 206px;
+    padding: 0px 1px;
+    object-fit: contain;
+}
+.container-descricao-quarto-familia table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-descricao-quarto-familia table thead {
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.container-descricao-quarto-familia table tbody {
+    width: 74vw;
+}
+.container-descricao-quarto-familia table tbody tr{
+    display: flex;
+}
+.container-descricao-quarto-familia table tbody td{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    border: 0.1px solid #00000012;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 135px;
+    font-family: serif;
+    background-color: green;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 35px;
+}
+footer .rodape-contatos{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #000;
+}
+footer .rodape-contatos nav{
+    display: flex;
+    width: 786px;
+    align-items: center;
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+footer .rodape-contatos nav a{
+    display: flex;
+    padding: 16px 0px 16px 38px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+footer .rodape-contatos nav .endereco::before{
+    content:"";
+    width: 20px;
+    height: 20px;
+    background-image: url('img/icones/endereco.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+}
+footer .rodape-contatos nav .telefone::before{
+    content:"";
+    width: 20px;
+    height: 20px;
+    background-image: url('img/icones/telefone.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+}
+footer .rodape-contatos nav .calendario::before{
+    content:"";
+    width: 20px;
+    height: 20px;
+    background-image: url('img/icones/calendario.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+footer .rodape-contatos nav a:hover{
+    color: #000000b0;
+}
+footer p{
+    padding:7px;
+}
+
